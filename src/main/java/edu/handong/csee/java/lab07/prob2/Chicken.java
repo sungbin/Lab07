@@ -5,6 +5,22 @@ public class Chicken {
 	public double price;
 	public int stars;
 	
+
+
+	public Chicken(String name, double price, int stars) {
+		this.name = name;
+		this.price = price;
+		this.stars = stars;
+	}
+
+	public Chicken()
+	{
+	this.name = "";
+	this.price = 0.0;
+	this.stars = 0;
+	}
+
+	
 	public void Set_name(String name)
 	{
 		this.name = name;
