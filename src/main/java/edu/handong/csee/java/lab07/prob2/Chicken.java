@@ -10,7 +10,7 @@ public class Chicken { //declare Chicken class
 	public String name; //declare name variable type public String
 	public double price; //declare price variable public double type
 	public int stars; //declare stars variable public int type
-
+	
 	public Chicken(String name, double price, int stars) { //making instance, this function get variable value
 		this.name = name; //input value to name class variable
 		this.price = price; //input value to price class variable
